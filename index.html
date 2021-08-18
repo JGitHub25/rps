@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
+    <main>
+        <div class="choices-container">
+            <div class="choice" id="rock">
+                <h1 class="choice-title">Rock</h1><span class="choice-emoji">🪨</span>
+            </div>
+            <div class="choice" id="paper">
+                <h1 class="choice-title">Paper</h1><span class="choice-emoji">📃</span>
+            </div>
+            <div class="choice" id="scissors">
+                <h1 class="choice-title">Scissors</h1><span class="choice-emoji">✂️</span>
+            </div>
+        </div>
+        <div class="computers-choice choice">
+            <h1 class="choice-title"></h1>
+        </div>
+        <div id="result">
+            <h1 id="result-text"></h1>
+        </div>
+    </main>
     <script src="./app.js"></script>
 </body>
+
 </html>
